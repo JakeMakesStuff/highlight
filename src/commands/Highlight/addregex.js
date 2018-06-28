@@ -5,7 +5,7 @@ module.exports = class extends Command {
         super(...args, {
             runIn: ["text"],
             description: "Adds a regex string to your highlight list",
-            usage: "<Word:str>",
+            usage: "<Regex:str>",
         });
         this.needsMember = true;
     }
